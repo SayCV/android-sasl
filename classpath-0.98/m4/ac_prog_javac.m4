@@ -40,9 +40,9 @@ ECJ_OPTS="$CLASSPATH -warn:-deprecation,serial,unusedImport"
 JAVAC_OPTS="-Xlint:unchecked,cast,divzero,empty,finally,overrides"
 GCJ_OPTS="-g"
 if test "x$JAVAPREFIX" = x; then
-        test "x$JAVAC" = x && AC_CHECK_PROGS(JAVAC, ["java$EXEEXT -jar $ecj.jar"] ["ecj$EXEEXT $ECJ_OPTS"] ["ecj-3.3$EXEEXT $ECJ_OPTS"] ["ecj-3.2$EXEEXT $ECJ_OPTS"] ["javac$EXEEXT $JAVAC_OPTS"] "gcj$EXEEXT -C")
+        test "x$JAVAC" = x && AC_CHECK_PROGS(JAVAC, ["java$EXEEXT -jar $ECLIPSE_JAVA_COMPILER_JAR"] ["ecj$EXEEXT $ECJ_OPTS"] ["ecj-3.3$EXEEXT $ECJ_OPTS"] ["ecj-3.2$EXEEXT $ECJ_OPTS"] ["javac$EXEEXT $JAVAC_OPTS"] "gcj$EXEEXT -C")
 else
-        test "x$JAVAC" = x && AC_CHECK_PROGS(JAVAC, ["java$EXEEXT -jar $ecj.jar"] ["ecj$EXEEXT $ECJ_OPTS"] ["ecj-3.3$EXEEXT $ECJ_OPTS"] ["ecj-3.2$EXEEXT $ECJ_OPTS"] ["javac$EXEEXT $JAVAC_OPTS"] "gcj$EXEEXT -C", $JAVAPREFIX)
+        test "x$JAVAC" = x && AC_CHECK_PROGS(JAVAC, ["java$EXEEXT -jar $ECLIPSE_JAVA_COMPILER_JAR"] ["ecj$EXEEXT $ECJ_OPTS"] ["ecj-3.3$EXEEXT $ECJ_OPTS"] ["ecj-3.2$EXEEXT $ECJ_OPTS"] ["javac$EXEEXT $JAVAC_OPTS"] "gcj$EXEEXT -C", $JAVAPREFIX)
 fi
 test "x$JAVAC" = x && AC_MSG_ERROR([no acceptable Java compiler found in \$PATH])
 AC_CACHE_CHECK([if $JAVAC is a version of gcj], ac_cv_prog_javac_is_gcj, [
