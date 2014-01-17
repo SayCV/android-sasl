@@ -83,7 +83,7 @@ CAIRO_CFLAGS =
 CAIRO_LIBS = 
 CC = arm-linux-androideabi-gcc
 CCDEPMODE = depmode=gcc3
-CFLAGS = -nostdlib -ID:\Android\android-ndk-r9b\toolchains\arm-linux-androideabi-4.8\prebuilt\windows\lib\gcc\arm-linux-androideabi\4.8\include-fixed -ID:\Android\android-ndk-r9b\platforms\android-18\arch-arm\usr\include
+CFLAGS = -nostdlib -ID:/Android/android-ndk-r9b/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/lib/gcc/arm-linux-androideabi/4.8/include-fixed -ID:/Android/android-ndk-r9b/platforms/android-18/arch-arm/usr/include
 CLASSPATH_CONVENIENCE = -no-undefined
 CLASSPATH_INCLUDES = -I$(top_srcdir)/include -I$(top_srcdir)/native/jni/classpath -I$(top_srcdir)/native/jni/native-lib
 CLASSPATH_MODULE = -module -version-info 0:0:0 -no-undefined
@@ -152,7 +152,7 @@ JAVA_LANG_SYSTEM_EXPLICIT_INITIALIZATION = false
 JAY = 
 JAY_SKELETON = 
 LD = d:/android/android-ndk-r9b/toolchains/arm-linux-androideabi-4.8/prebuilt/windows/arm-linux-androideabi/bin/ld.exe
-LDFLAGS = -nostdlib -LD:\Android\android-ndk-r9b\platforms\android-18\arch-arm\usr\lib 
+LDFLAGS = -nostdlib -LD:/Android/android-ndk-r9b/platforms/android-18/arch-arm/usr/lib 
 LIBDEBUG = false
 LIBICONV = 
 LIBMAGIC = 
