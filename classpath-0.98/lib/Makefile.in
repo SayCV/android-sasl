@@ -288,7 +288,7 @@ compile_classpath = $(vm_classes):$(top_srcdir):$(top_srcdir)/external/w3c_dom:$
 @GCJ_JAVAC_FALSE@JCOMPILER = $(JAVAC) $(JAVACFLAGS) $(CUSTOM_JAVA_OPTS) $(JAVAC_MEM_OPT) -source 1.5 -target 1.5 -bootclasspath '' -classpath $(compile_classpath) -d . @classes
 
 # handling source to bytecode compiler programs like gcj, jikes  and kjc
-@GCJ_JAVAC_TRUE@JCOMPILER = $(JAVAC) $(JAVACFLAGS) -fsource=1.5 -ftarget=1.5 --bootclasspath='' --classpath=$(compile_classpath) -d . @classes
+@GCJ_JAVAC_TRUE@JCOMPILER = $(JAVAC) $(JAVACFLAGS) $(CUSTOM_JAVA_OPTS) -fsource=1.5 -ftarget=1.5 --bootclasspath='' --classpath=$(compile_classpath) -d . @classes
 @CREATE_COLLECTIONS_TRUE@COLLECTIONS = collections.jar
 @CREATE_COLLECTIONS_TRUE@@WITH_JAR_FALSE@CREATE_COLLECTIONS_JAR = $(ZIP) -r -D $@ $(COLLECTIONS_PREFIX) > /dev/null
 @CREATE_COLLECTIONS_TRUE@@WITH_JAR_TRUE@CREATE_COLLECTIONS_JAR = $(JAR) cf $@ $(COLLECTIONS_PREFIX)
