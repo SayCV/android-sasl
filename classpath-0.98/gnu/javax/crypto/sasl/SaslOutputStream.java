@@ -45,9 +45,9 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.util.logging.Logger;
 
-import javax.security.sasl.Sasl;
-import javax.security.sasl.SaslClient;
-import javax.security.sasl.SaslServer;
+import gnusasl.javax.security.sasl.Sasl;
+import gnusasl.javax.security.sasl.SaslClient;
+import gnusasl.javax.security.sasl.SaslServer;
 
 /**
  * An output stream that uses either a {@link SaslClient} or a {@link SaslServer}

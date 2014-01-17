@@ -76,9 +76,9 @@ import javax.security.auth.callback.Callback;
 import javax.security.auth.callback.NameCallback;
 import javax.security.auth.callback.PasswordCallback;
 import javax.security.auth.callback.UnsupportedCallbackException;
-import javax.security.sasl.AuthenticationException;
-import javax.security.sasl.SaslClient;
-import javax.security.sasl.SaslException;
+import gnusasl.javax.security.sasl.AuthenticationException;
+import gnusasl.javax.security.sasl.SaslClient;
+import gnusasl.javax.security.sasl.SaslException;
 
 /**
  * The SASL-SRP client-side mechanism.

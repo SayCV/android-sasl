@@ -55,7 +55,7 @@ import gnu.javax.crypto.sasl.ConfidentialityException;
 
 import java.util.HashMap;
 
-import javax.security.sasl.SaslException;
+import gnusasl.javax.security.sasl.SaslException;
 
 /**
  * A Factory class that returns CALG (Confidentiality Algorithm) instances that

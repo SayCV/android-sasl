@@ -46,9 +46,9 @@ import java.io.InputStream;
 import java.io.InterruptedIOException;
 import java.util.logging.Logger;
 
-import javax.security.sasl.Sasl;
-import javax.security.sasl.SaslClient;
-import javax.security.sasl.SaslServer;
+import gnusasl.javax.security.sasl.Sasl;
+import gnusasl.javax.security.sasl.SaslClient;
+import gnusasl.javax.security.sasl.SaslServer;
 
 /**
  * An input stream that uses either a {@link SaslClient} or a {@link SaslServer}

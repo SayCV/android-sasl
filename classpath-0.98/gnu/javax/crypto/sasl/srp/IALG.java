@@ -45,7 +45,7 @@ import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
 import java.util.HashMap;
 
-import javax.security.sasl.SaslException;
+import gnusasl.javax.security.sasl.SaslException;
 
 /**
  * A Factory class that returns IALG (Integrity Algorithm) instances that

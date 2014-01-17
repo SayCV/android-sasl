@@ -38,7 +38,7 @@ exception statement from your version.  */
 
 package gnu.javax.crypto.sasl;
 
-import javax.security.sasl.SaslException;
+import gnusasl.javax.security.sasl.SaslException;
 
 /**
  * Used by mechanisms that offer a security services layer, this checked

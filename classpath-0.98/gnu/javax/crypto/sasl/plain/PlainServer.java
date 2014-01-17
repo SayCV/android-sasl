@@ -50,8 +50,8 @@ import java.util.Map;
 import java.util.NoSuchElementException;
 import java.util.StringTokenizer;
 
-import javax.security.sasl.SaslException;
-import javax.security.sasl.SaslServer;
+import gnusasl.javax.security.sasl.SaslException;
+import gnusasl.javax.security.sasl.SaslServer;
 
 /**
  * The PLAIN SASL server-side mechanism.

@@ -50,9 +50,9 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-import javax.security.sasl.AuthenticationException;
-import javax.security.sasl.SaslException;
-import javax.security.sasl.SaslServer;
+import gnusasl.javax.security.sasl.AuthenticationException;
+import gnusasl.javax.security.sasl.SaslException;
+import gnusasl.javax.security.sasl.SaslServer;
 
 /**
  * The CRAM-MD5 SASL server-side mechanism.
