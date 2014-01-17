@@ -11,25 +11,25 @@
 /* #undef ENABLE_LOCAL_SOCKETS */
 
 /* Define to 1 if you have the `accept' function. */
-#define HAVE_ACCEPT 1
+/* #undef HAVE_ACCEPT */
 
 /* Define to 1 if you have the <alsa/asoundlib.h> header file. */
-#define HAVE_ALSA_ASOUNDLIB_H 1
+/* #undef HAVE_ALSA_ASOUNDLIB_H */
 
 /* Define to 1 if you have the <asm/ioctls.h> header file. */
 #define HAVE_ASM_IOCTLS_H 1
 
 /* Define to 1 if you have the `bind' function. */
-#define HAVE_BIND 1
+/* #undef HAVE_BIND */
 
 /* Define to 1 if you have BSD u_int32_t */
 #define HAVE_BSD_INT32_DEFINED 1
 
 /* Define to 1 if you have the `close' function. */
-#define HAVE_CLOSE 1
+/* #undef HAVE_CLOSE */
 
 /* Define to 1 if you have the `connect' function. */
-#define HAVE_CONNECT 1
+/* #undef HAVE_CONNECT */
 
 /* Define to 1 if you have the <crt_externs.h> header file. */
 /* #undef HAVE_CRT_EXTERNS_H */
@@ -45,28 +45,28 @@
 /* #undef HAVE_DSSI_H */
 
 /* Define to 1 if you have the `epoll_create' function. */
-#define HAVE_EPOLL_CREATE 1
+/* #undef HAVE_EPOLL_CREATE */
 
 /* Define to 1 if you have the `execve' function. */
-#define HAVE_EXECVE 1
+/* #undef HAVE_EXECVE */
 
 /* Define to 1 if you have the `fcntl' function. */
-#define HAVE_FCNTL 1
+/* #undef HAVE_FCNTL */
 
 /* Define to 1 if you have the <fcntl.h> header file. */
 #define HAVE_FCNTL_H 1
 
 /* Define to 1 if you have the `fork' function. */
-#define HAVE_FORK 1
+/* #undef HAVE_FORK */
 
 /* Define to 1 if you have the `fstat' function. */
-#define HAVE_FSTAT 1
+/* #undef HAVE_FSTAT */
 
 /* Define to 1 if you have the `fsync' function. */
-#define HAVE_FSYNC 1
+/* #undef HAVE_FSYNC */
 
 /* Define to 1 if you have the `ftruncate' function. */
-#define HAVE_FTRUNCATE 1
+/* #undef HAVE_FTRUNCATE */
 
 /* three-argument gethostbyname_r */
 /* #undef HAVE_FUNC_GETHOSTBYNAME_R_3 */
@@ -78,31 +78,31 @@
 #define HAVE_FUNC_GETHOSTBYNAME_R_6 1
 
 /* Define to 1 if you have the `gethostbyname_r' function. */
-#define HAVE_GETHOSTBYNAME_R 1
+/* #undef HAVE_GETHOSTBYNAME_R */
 
 /* Define to 1 if you have the `gethostname' function. */
-#define HAVE_GETHOSTNAME 1
+/* #undef HAVE_GETHOSTNAME */
 
 /* Define to 1 if you have the `getifaddrs' function. */
-#define HAVE_GETIFADDRS 1
+/* #undef HAVE_GETIFADDRS */
 
 /* Define to 1 if you have the `getloadavg' function. */
-#define HAVE_GETLOADAVG 1
+/* #undef HAVE_GETLOADAVG */
 
 /* Define to 1 if you have the `getpagesize' function. */
-#define HAVE_GETPAGESIZE 1
+/* #undef HAVE_GETPAGESIZE */
 
 /* Define to 1 if you have the `getpeername' function. */
-#define HAVE_GETPEERNAME 1
+/* #undef HAVE_GETPEERNAME */
 
 /* Define to 1 if you have the `getsockname' function. */
-#define HAVE_GETSOCKNAME 1
+/* #undef HAVE_GETSOCKNAME */
 
 /* Define to 1 if you have the `getsockopt' function. */
-#define HAVE_GETSOCKOPT 1
+/* #undef HAVE_GETSOCKOPT */
 
 /* Define to 1 if you have the <gmp.h> header file. */
-#define HAVE_GMP_H 1
+/* #undef HAVE_GMP_H */
 
 /* Define if function attributes a la GCC 2.5 and higher are available. */
 #define HAVE_GNUC25_ATTRIB /**/
@@ -111,28 +111,28 @@
 #define HAVE_GNUC25_UNUSED /**/
 
 /* Define to 1 if you have the `htonl' function. */
-#define HAVE_HTONL 1
+/* #undef HAVE_HTONL */
 
 /* Define to 1 if you have the `htons' function. */
-#define HAVE_HTONS 1
+/* #undef HAVE_HTONS */
 
 /* Define if you have the iconv() function. */
-#define HAVE_ICONV 1
+/* #undef HAVE_ICONV */
 
 /* Define to 1 if you have the <ifaddrs.h> header file. */
-#define HAVE_IFADDRS_H 1
+/* #undef HAVE_IFADDRS_H */
 
 /* Define if inet6 structures are defined in netinet/in.h. */
 #define HAVE_INET6 1
 
 /* Define to 1 if you have the `inet_addr' function. */
-#define HAVE_INET_ADDR 1
+/* #undef HAVE_INET_ADDR */
 
 /* Define to 1 if you have the `inet_aton' function. */
-#define HAVE_INET_ATON 1
+/* #undef HAVE_INET_ATON */
 
 /* Define to 1 if you have the `inet_pton' function. */
-#define HAVE_INET_PTON 1
+/* #undef HAVE_INET_PTON */
 
 /* Define to 1 if you have uint32_t */
 #define HAVE_INT32_DEFINED 1
@@ -156,40 +156,40 @@
 /* #undef HAVE_LIBSOCKET */
 
 /* Define to 1 if you have the `listen' function. */
-#define HAVE_LISTEN 1
+/* #undef HAVE_LISTEN */
 
 /* Define to 1 if you have the `localtime_r' function. */
-#define HAVE_LOCALTIME_R 1
+/* #undef HAVE_LOCALTIME_R */
 
 /* Define to 1 if you have the `lseek' function. */
-#define HAVE_LSEEK 1
+/* #undef HAVE_LSEEK */
 
 /* Define to 1 if you have the `lstat' function. */
-#define HAVE_LSTAT 1
+/* #undef HAVE_LSTAT */
 
 /* Define to 1 if you have the <ltdl.h> header file. */
 /* #undef HAVE_LTDL_H */
 
 /* Define to 1 if you have the `madvise' function. */
-#define HAVE_MADVISE 1
+/* #undef HAVE_MADVISE */
 
 /* Define to 1 if you have the <magic.h> header file. */
-#define HAVE_MAGIC_H 1
+/* #undef HAVE_MAGIC_H */
 
 /* Define to 1 if you have the <memory.h> header file. */
 #define HAVE_MEMORY_H 1
 
 /* Define to 1 if you have the `memset' function. */
-#define HAVE_MEMSET 1
+/* #undef HAVE_MEMSET */
 
 /* Define to 1 if you have the `mincore' function. */
-#define HAVE_MINCORE 1
+/* #undef HAVE_MINCORE */
 
 /* Define to 1 if you have the `mktime' function. */
-#define HAVE_MKTIME 1
+/* #undef HAVE_MKTIME */
 
 /* Define to 1 if you have the `mmap' function. */
-#define HAVE_MMAP 1
+/* #undef HAVE_MMAP */
 
 /* Define this symbol if you have MSG_NOSIGNAL */
 #define HAVE_MSG_NOSIGNAL 1
@@ -198,10 +198,10 @@
 #define HAVE_MSG_WAITALL 1
 
 /* Define to 1 if you have the `msync' function. */
-#define HAVE_MSYNC 1
+/* #undef HAVE_MSYNC */
 
 /* Define to 1 if you have the `munmap' function. */
-#define HAVE_MUNMAP 1
+/* #undef HAVE_MUNMAP */
 
 /* Define to 1 if you have the <netinet/in_systm.h> header file. */
 #define HAVE_NETINET_IN_SYSTM_H 1
@@ -213,46 +213,46 @@
 #define HAVE_NET_IF_H 1
 
 /* Define to 1 if you have the `open' function. */
-#define HAVE_OPEN 1
+/* #undef HAVE_OPEN */
 
 /* Define to 1 if you have the `pipe' function. */
-#define HAVE_PIPE 1
+/* #undef HAVE_PIPE */
 
 /* Define to 1 if you have the `read' function. */
-#define HAVE_READ 1
+/* #undef HAVE_READ */
 
 /* Define to 1 if you have the `readlink' function. */
-#define HAVE_READLINK 1
+/* #undef HAVE_READLINK */
 
 /* Define to 1 if you have the `readv' function. */
-#define HAVE_READV 1
+/* #undef HAVE_READV */
 
 /* Define to 1 if you have the `recvfrom' function. */
-#define HAVE_RECVFROM 1
+/* #undef HAVE_RECVFROM */
 
 /* Define to 1 if you have the `select' function. */
-#define HAVE_SELECT 1
+/* #undef HAVE_SELECT */
 
 /* Define to 1 if you have the `send' function. */
-#define HAVE_SEND 1
+/* #undef HAVE_SEND */
 
 /* Define to 1 if you have the `sendto' function. */
-#define HAVE_SENDTO 1
+/* #undef HAVE_SENDTO */
 
 /* Define to 1 if you have the `setsockopt' function. */
-#define HAVE_SETSOCKOPT 1
+/* #undef HAVE_SETSOCKOPT */
 
 /* Define to 1 if you have the `shutdown' function. */
 /* #undef HAVE_SHUTDOWN */
 
 /* Define to 1 if you have the `socket' function. */
-#define HAVE_SOCKET 1
+/* #undef HAVE_SOCKET */
 
 /* Define this symbol if you have SO_NOSIGPIPE */
 /* #undef HAVE_SO_NOSIGPIPE */
 
 /* Define to 1 if you have the `statvfs' function. */
-#define HAVE_STATVFS 1
+/* #undef HAVE_STATVFS */
 
 /* Define to 1 if you have the <stdint.h> header file. */
 #define HAVE_STDINT_H 1
@@ -261,10 +261,10 @@
 #define HAVE_STDLIB_H 1
 
 /* Define to 1 if you have the `strerror' function. */
-#define HAVE_STRERROR 1
+/* #undef HAVE_STRERROR */
 
 /* Define to 1 if you have the `strerror_r' function. */
-#define HAVE_STRERROR_R 1
+/* #undef HAVE_STRERROR_R */
 
 /* Define to 1 if you have the <strings.h> header file. */
 #define HAVE_STRINGS_H 1
@@ -272,11 +272,11 @@
 /* Define to 1 if you have the <string.h> header file. */
 #define HAVE_STRING_H 1
 
-/* Define to 1 if `tm_zone' is member of `struct tm'. */
+/* Define to 1 if `tm_zone' is a member of `struct tm'. */
 #define HAVE_STRUCT_TM_TM_ZONE 1
 
 /* Define to 1 if you have the `sysconf' function. */
-#define HAVE_SYSCONF 1
+/* #undef HAVE_SYSCONF */
 
 /* Define to 1 if you have the <sys/config.h> header file. */
 /* #undef HAVE_SYS_CONFIG_H */
@@ -315,10 +315,10 @@
 #define HAVE_SYS_TYPES_H 1
 
 /* Define to 1 if you have the <sys/utime.h> header file. */
-/* #undef HAVE_SYS_UTIME_H */
+#define HAVE_SYS_UTIME_H 1
 
 /* Define to 1 if you have the `time' function. */
-#define HAVE_TIME 1
+/* #undef HAVE_TIME */
 
 /* Define if global 'timezone' exists. */
 /* #undef HAVE_TIMEZONE */
@@ -341,29 +341,30 @@
 #define HAVE_UTIME_H 1
 
 /* Define to 1 if you have the `write' function. */
-#define HAVE_WRITE 1
+/* #undef HAVE_WRITE */
 
 /* Define to 1 if you have the `writev' function. */
-#define HAVE_WRITEV 1
+/* #undef HAVE_WRITEV */
 
 /* Define to 1 if you have libXrandr. */
-#define HAVE_XRANDR 1
+/* #undef HAVE_XRANDR */
 
 /* Define to 1 if you have libXrender. */
-#define HAVE_XRENDER 1
+/* #undef HAVE_XRENDER */
 
 /* Define to 1 if you have libXtst. */
-#define HAVE_XTEST 1
-
-/* Define to 1 if you have the `\' function. */
-/* #undef HAVE__ */
+/* #undef HAVE_XTEST */
 
 /* Define if the host machine stores words of multi-word integers in
    big-endian order. */
 /* #undef HOST_WORDS_BIG_ENDIAN */
 
 /* Define as const if the declaration of iconv() needs const. */
-#define ICONV_CONST 
+/* #undef ICONV_CONST */
+
+/* Define to the sub-directory in which libtool stores uninstalled libraries.
+   */
+#define LT_OBJDIR ".libs/"
 
 /* Define to 1 if your C compiler doesn't accept -c and -o together. */
 /* #undef NO_MINUS_C_MINUS_O */
@@ -382,6 +383,9 @@
 
 /* Define to the one symbol short name of this package. */
 #define PACKAGE_TARNAME "classpath"
+
+/* Define to the home page for this package. */
+#define PACKAGE_URL "http://www.gnu.org/software/classpath/"
 
 /* Define to the version of this package. */
 #define PACKAGE_VERSION "0.98"
@@ -406,7 +410,7 @@
 /* #undef SIZEOF_VOIDP */
 
 /* The number of bytes in type void * */
-#define SIZEOF_VOID_P 8
+#define SIZEOF_VOID_P 4
 
 /* Define to 1 if you have the ANSI C header files. */
 #define STDC_HEADERS 1
@@ -424,7 +428,7 @@
 #define VERSION "0.98"
 
 /* Define to 1 if gmp is usable */
-#define WITH_GNU_MP 1
+/* #undef WITH_GNU_MP */
 
 /* whether byteorder is bigendian */
 /* #undef WORDS_BIGENDIAN */
