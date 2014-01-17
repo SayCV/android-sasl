@@ -39,7 +39,7 @@ exception statement from your version. */
 
 package gnusasl.javax.security.sasl;
 
-import gnusasl.javax.security.auth.callback.ChoiceCallback;
+import gnusasl.javax.security.auth.callback.ChoiceCallback;;
 
 /**
  * This callback is used by {@link SaslClient} and {@link SaslServer} to obtain

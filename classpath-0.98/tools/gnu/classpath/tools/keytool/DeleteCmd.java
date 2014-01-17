@@ -52,7 +52,7 @@ import java.security.cert.CertificateException;
 import java.util.logging.Logger;
 
 import javax.security.auth.callback.Callback;
-import javax.security.auth.callback.NameCallback;
+import gnusasl.javax.security.auth.callback.NameCallback;
 import javax.security.auth.callback.UnsupportedCallbackException;
 
 /**

@@ -53,12 +53,12 @@ import java.io.IOException;
 import java.util.Locale;
 
 import javax.security.auth.callback.Callback;
-import javax.security.auth.callback.ChoiceCallback;
+import gnusasl.javax.security.auth.callback.ChoiceCallback;
 import javax.security.auth.callback.ConfirmationCallback;
 import javax.security.auth.callback.LanguageCallback;
-import javax.security.auth.callback.NameCallback;
+import gnusasl.javax.security.auth.callback.NameCallback;
 import javax.security.auth.callback.PasswordCallback;
-import javax.security.auth.callback.TextInputCallback;
+import gnusasl.javax.security.auth.callback.TextInputCallback;
 import javax.security.auth.callback.TextOutputCallback;
 
 import javax.swing.JButton;

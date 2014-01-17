@@ -73,7 +73,7 @@ import java.util.logging.Logger;
 
 import javax.security.auth.DestroyFailedException;
 import javax.security.auth.callback.Callback;
-import javax.security.auth.callback.NameCallback;
+import gnusasl.javax.security.auth.callback.NameCallback;
 import javax.security.auth.callback.PasswordCallback;
 import javax.security.auth.callback.UnsupportedCallbackException;
 import gnusasl.javax.security.sasl.AuthenticationException;

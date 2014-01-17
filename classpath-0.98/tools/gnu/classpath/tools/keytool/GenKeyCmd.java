@@ -62,7 +62,7 @@ import java.security.cert.CertificateFactory;
 import java.util.logging.Logger;
 
 import javax.security.auth.callback.Callback;
-import javax.security.auth.callback.TextInputCallback;
+import gnusasl.javax.security.auth.callback.TextInputCallback;
 import javax.security.auth.callback.TextOutputCallback;
 import javax.security.auth.callback.UnsupportedCallbackException;
 
