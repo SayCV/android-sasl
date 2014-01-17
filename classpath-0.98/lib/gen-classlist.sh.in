@@ -57,7 +57,7 @@ for dir in $vm_dirlist; do
    done) | sed -e 's,/\([^/]*\)$, \1,' |
    while read pkg file; do
       echo $pkg $dir $pkg/$file >> vm.add
-      echo $pkg/$file >> vm.omit
+#      echo $pkg/$file >> vm.omit
    done
 done
 
