@@ -125,6 +125,8 @@ cpnio_recvfrom (int fd, void *buf, size_t len, int flags,
   return recvfrom (fd, buf, len, flags, from, fromlen);
 }
 
+#define ENOSUP EOPNOTSUPP
+
 CPNIO_EXPORT int
 cpnio_fcntl (int fd, int cmd, long arg)
 {
